@@ -55,3 +55,42 @@
     width: 145px;
     border: none;
 }
+
+@media (max-width: 1250px) {
+    .navbar{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 790px) {
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        max-width: 550px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .navbar{
+        max-width: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .navbar{
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar{
+        max-width: 300px;
+    }
+}
